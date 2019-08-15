@@ -1,0 +1,12 @@
+{
+  "weatherDS": {
+    "host": "10.3.2.126",
+    "port": 1521,
+    "database": "XE",
+    "password": "Acceso2019#",
+    "name": "weatherDS",
+    "connector": "oracle",
+    "user": "system",
+    "tns": "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.3.2.126)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED)  (SERVICE_NAME = XE) ) )"
+  }
+}
