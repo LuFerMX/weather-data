@@ -6,42 +6,42 @@
     "validateUpsert": true
   },
   "properties": {
-    "zip_doce": {
+    "current_humidity": {
       "type": "number",
-      "id": true,
       "required": true,
-      "description": "zip code",
-      "isArray": false
+      "description": "current humidity"
     },
     "current_temperature": {
       "type": "number",
       "required": true,
       "description": "current temperature"
     },
-    "current_humidity": {
+    "tonight_humidity_high": {
       "type": "number",
       "required": true,
-      "description": "current humidity"
-    },
-    "tonight_temperature_low": {
-      "type": "number",
-      "required": true,
-      "description": "tonight temperature low"
-    },
-    "tonight_temperature_high": {
-      "type": "number",
-      "required": true,
-      "description": "tonight temperature high"
+      "description": "tonight humidity high"
     },
     "tonight_humidity_low": {
       "type": "number",
       "required": true,
       "description": "tonight humidity low"
     },
-    "tonight_humidity_high": {
+    "tonight_temperature_high": {
       "type": "number",
       "required": true,
-      "description": "tonight humidity high"
+      "description": "tonight temperature high"
+    },
+    "tonight_temperature_low": {
+      "type": "number",
+      "required": true,
+      "description": "tonight temperature low"
+    },
+    "zip_doce": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "description": "zip code",
+      "isArray": false
     }
   },
   "validations": [],

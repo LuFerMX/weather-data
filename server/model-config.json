@@ -14,7 +14,7 @@
     ]
   },
   "weather": {
-    "dataSource": "weatherDS",
+    "dataSource": "weatherDSA",
     "public": true
   }
 }

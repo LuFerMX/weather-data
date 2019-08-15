@@ -388,42 +388,42 @@ paths:
 definitions:
   weather:
     properties:
-      zip_doce:
-        description: zip code
+      current_humidity:
+        description: current humidity
         type: number
         format: double
       current_temperature:
         description: current temperature
         type: number
         format: double
-      current_humidity:
-        description: current humidity
-        type: number
-        format: double
-      tonight_temperature_low:
-        description: tonight temperature low
-        type: number
-        format: double
-      tonight_temperature_high:
-        description: tonight temperature high
+      tonight_humidity_high:
+        description: tonight humidity high
         type: number
         format: double
       tonight_humidity_low:
         description: tonight humidity low
         type: number
         format: double
-      tonight_humidity_high:
-        description: tonight humidity high
+      tonight_temperature_high:
+        description: tonight temperature high
+        type: number
+        format: double
+      tonight_temperature_low:
+        description: tonight temperature low
+        type: number
+        format: double
+      zip_doce:
+        description: zip code
         type: number
         format: double
     required:
-      - zip_doce
-      - current_temperature
       - current_humidity
-      - tonight_temperature_low
-      - tonight_temperature_high
-      - tonight_humidity_low
+      - current_temperature
       - tonight_humidity_high
+      - tonight_humidity_low
+      - tonight_temperature_high
+      - tonight_temperature_low
+      - zip_doce
     additionalProperties: false
   x-any:
     properties: {}
